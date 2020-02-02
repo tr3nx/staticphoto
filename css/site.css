@@ -1,0 +1,33 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #282B30;
+  color: #f8f8f8;
+}
+body {
+  font-family: "myriad-pro","Myriad Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #f8f8f8;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a,a:link {
+  color: #f8f8f8;
+  text-decoration: underline;
+  transition: color 0.5s ease;
+}
+a:visited,a:hover {
+  color: #ccc;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
